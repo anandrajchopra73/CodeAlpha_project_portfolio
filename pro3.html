@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Anand Portfolio</title>
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+      }
+      html{
+    scroll-behavior: smooth;
+}
+      body {
+        background-color: rgb(3, 3, 41);
+        color: white;
+      }
+      nav {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        height: 65px;
+        background-color: rgb(15, 15, 78);
+      }
+      nav ul {
+        display: flex;
+        justify-content: center;
+      }
+      nav ul li {
+        list-style: none;
+        margin: 0 20px;
+      }
+      nav ul li a {
+        text-decoration: none;
+        color: white;
+      }
+      nav ul li a:hover {
+        color: rgb(167, 167, 221);
+        font-size: 1.06rem;
+      }
+      .left {
+        font-size: 1.6rem;
+      }
+      .one {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 120px 0;
+      }
+      .one > div {
+        width: 30%;
+      }
+      .rightone {
+        width: 34px;
+        font-size: 2.5rem;
+      }
+      .rightone .buttons{
+        padding: 20px 0;
+      }
+      .rightone .btn {
+        padding: 10px;
+        background-color: #110c28;
+        color: white;
+        border: 2px solid white;
+        border-radius: 8px;
+        font-size: 20px;
+        cursor: pointer;
+      }
+      .rightone .btn a{
+        text-decoration: none;
+        color: white;
+      }
+
+      .leftone img {
+        width: 56%;
+        border-radius: 180px;
+        border: 2px solid white;
+      }
+      .violet {
+        color: rgb(143, 89, 197);
+      }
+      #element {
+        color: rgb(143, 89, 197);
+      }
+      .two {
+        max-width: 80vw;
+        margin: auto;
+        height: 80vh;
+      }
+      .two h1 {
+        font-size: 2rem;
+      }
+      main hr {
+        border: 0;
+        background-color: #605872;
+        height: 1.2px;
+        margin: 40px 85px;
+      }
+      .gray {
+        color: gray;
+      }
+      .two .box {
+        background: white;
+        width: 80vw;
+        height: 2px;
+        margin: 60px 0;
+        display: flex;
+      }
+      .two .vertical {
+        height: 95px;
+        width: 1px;
+        background-color: white;
+        margin: 0 90px;
+      }
+      .first {
+        width: 40px;
+        position: relative;
+        top: -50px;
+        left: -19px;
+      }
+      .vertical-title {
+        position: relative;
+        top: 57px;
+        width: 400px;
+        left: -67px;
+        font-size: 20px;
+      }
+      .vertical-desc {
+        position: relative;
+        top: 135px;
+        font-size: 9px;
+        width: 150px;
+        left: -130px;
+        color: gray;
+      }
+      footer {
+        background-color: #120c1e;
+        height: 250px;
+      }
+      .footers {
+        display: flex;
+        padding: 23px 122px;
+        justify-content: space-evenly;
+      }
+      .footers ul {
+        list-style: none;
+      }
+      .footers > div {
+        width: 223px;
+      }
+      .footer-text {
+        color: gray;
+        text-align: center;
+      }
+      .contact{
+    background-color:rgb(3, 3, 41);
+    height: 630px;
+    
+}
+.center{
+  padding: 30px;
+  font-size: 30px;
+}
+.text_center{
+    text-align: center;
+    padding: 30px;
+    font-size: 35px;
+}
+.forms{
+    margin: 10px auto;
+    width: 450px;
+}
+.forms_input{
+    width: 100%;
+    padding: 6px 10px;
+    border: 2px solid gray;
+    border-radius: 6px;
+    margin: 14px 0px;
+}
+#Projects {
+    margin:  20px 80px;
+    display: flex;
+}
+#Projects .boxes{
+    border: 2px solid black;
+    padding: 34px;
+    margin: 10px 6px;
+    border-radius: 28px;
+    background: #272a3c;
+    text-align: center;
+}
+#Projects .boxes img{
+    height: 170px;
+    margin: auto;
+    display: block;
+}
+.primary{
+    font-size: 2.2rem;
+    padding: 12px;
+}  
+.secondary{
+    font-size: 1.8rem;
+    padding: 12px;
+}
+    </style>
+  </head>
+  <body>
+    <header>
+      <nav>
+        <div class="left">Anand portfolio</div>
+        <div class="right">
+          <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#About">About</a></li>
+            <li><a href="#Skills">Skills</a></li>
+            <li><a href="#Projects">Projects</a></li>
+            <li><a href="#Contact">Contact Me</a></li>
+          </ul>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="one">
+        <div class="leftone" id="About">
+          <h1 class="center">About Myself</h1>
+          <img src="anand.jpg" alt="Error">
+        </div>
+        <div class="rightone">
+          Hi, My Name is <br>
+          <span class="violet">Anand Raj Chopra</span>
+          <div>And I Am a passionate</div>
+          <span id="element"></span>
+          <div class="buttons">
+            <button class="btn"><a href="Anand Raj Chopra Resume.pdf">Download Resume</a></button>
+            <button class="btn"><a href="https://github.com/anandrajchopra73">Github visit</a></button>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="two " id="Skills">
+        <span class="gray">What Skills I Learn So Far...</span>
+        <h1>Skills</h1>
+        <div class="box">
+          <div class="vertical">
+            <img src="pngwing.com.png" alt="error" class="first">
+            <div class="vertical-title">Html Developer</div>
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In vero
+            atque repellendus illum, impedit nam itaque nesciunt rem maxime, ad
+            officiis mollitia dolore.
+          </div>
+          <div class="vertical">
+            <img src="pngwing.com (1).png" alt="error" class="first">
+            <div class="vertical-title">Css Developer</div>
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In vero
+            atque repellendus illum, impedit nam itaque nesciunt rem maxime, ad
+            officiis mollitia dolore.
+          </div>
+          <div class="vertical">
+            <img src="pngwing.com (2).png" alt="error" class="first">
+            <div class="vertical-title">JavaScricpt Developer</div>
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In vero
+            atque repellendus illum, impedit nam itaque nesciunt rem maxime, ad
+            officiis mollitia dolore.
+          </div>
+          <div class="vertical">
+            <img src="pngwing.com (4).png" alt="error" class="first">
+            <div class="vertical-title">Java Developer</div>
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In vero
+            atque repellendus illum, impedit nam itaque nesciunt rem maxime, ad
+            officiis mollitia dolore.
+          </div>
+          <div class="vertical">
+            <img src="pngwing.com (3).png" alt="error" class="first">
+            <div class="vertical-title">C/C++ Developer</div>
+          </div>
+          <div class="vertical-desc">
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. In vero
+            atque repellendus illum, impedit nam itaque nesciunt rem maxime, ad
+            officiis mollitia dolore.
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="Projects">
+        <h1 class="primary text_center">My Projects</h1>
+        <div id="Projects">
+          <div class="boxes">
+            <img src="food-5681237_1280.png" alt="pro 1" />
+            <h2 class="secondary text_center">Food Ordering Website</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              voluptas odio odit totam delectus quod eum nemo praesentium. Harum
+              rem asperiores fuga. Assumenda, doloribus suscipit blanditiis
+              dolorum quia doloremque natus.
+            </p>
+          </div>
+          <div class="boxes">
+            <img src="cv-5973796_1280.png" alt="pro 2" />
+            <h2 class="secondary text_center">Portfolio Website</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              voluptas odio odit totam delectus quod eum nemo praesentium. Harum
+              rem asperiores fuga. Assumenda, doloribus suscipit blanditiis
+              dolorum quia doloremque natus.
+            </p>
+          </div>
+          <div class="boxes">
+            <img src="calculator.png" alt="pro 3" />
+            <h2 class="secondary text_center">Calculator Website</h2>
+            <p>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit. Quaerat
+              voluptas odio odit totam delectus quod eum nemo praesentium. Harum
+              rem asperiores fuga. Assumenda, doloribus suscipit blanditiis
+              dolorum quia doloremque natus.
+            </p>
+          </div>
+        </div>
+      </section>
+      <hr>
+      <section class="contact" id="Contact">
+        <h2 class="text_center">Contact Me For Work</h2>
+        <div class="forms">
+          <input
+            class="forms_input"
+            type="text"
+            name="name"
+            id="name"
+            placeholder="Enter Your Name"
+          />
+          <input
+            class="forms_input"
+            type="text"
+            name="phone"
+            id="phone"
+            placeholder="Enter Your Phone No."
+          />
+          <input
+            class="forms_input"
+            type="email"
+            name="email"
+            id="email"
+            placeholder="Enter Your Email Id"
+          />
+          <textarea
+            class="forms_input"
+            name="text"
+            id="text"
+            cols="30"
+            rows="10"
+            placeholder="Ellaborate Your Consern"
+          ></textarea>
+          <button class="btn_dark">Submit</button>
+        </div>
+      </section>
+    </main>
+    <footer>
+      <div class="footers">
+        <div class="footer-1">
+          <h1>Anand Raj Chopra Portfolio Website</h1>
+        </div>
+        <div class="footer-2">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Contact Me</a></li>
+            <li><a href="/">projects</a></li>
+          </ul>
+        </div>
+        <div class="footer-3">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Contact Me</a></li>
+            <li><a href="/">projects</a></li>
+          </ul>
+        </div>
+        <div class="footer-4">
+          <ul>
+            <li><a href="/">Home</a></li>
+            <li><a href="/">About</a></li>
+            <li><a href="/">Services</a></li>
+            <li><a href="/">Contact Me</a></li>
+            <li><a href="/">projects</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="footer-text">
+        Copyright &#169; www.Anand_Raj_Chopra_portfolio.com | All rights are
+        reserved
+      </div>
+  </footer>
+    <script src="https://unpkg.com/typed.js@2.0.16/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: [
+          "Web Developer",
+          "Coder",
+          "Good Listner",
+          "Good Speaker",
+          "Web Designer...",
+        ],
+        typeSpeed: 250,
+      });
+    </script>
+  </body>
+</html>
